@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: gray;
+}
+body a {
+  text-decoration: none;
+}
+
+.wraper {
+  padding: 10px;
+  border: 2px solid black;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 15px;
+}
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid gray;
+  margin-top: 20px;
+}
+.addq {
+  border-bottom: 2px solid blue;
+  text-decoration: none;
+}
+
+.main {
+  height: auto;
+  margin-top: 40px;
+}
+
+.ul {
+  display: flex;
+  list-style: none;
+}
+.public {
+  padding: 7px;
+}
+.profile {
+  width: 45px;
+  height: 45px;
+  padding: 7px;
+}
+#button1 {
+  border-bottom-left-radius: var(--dropdown-radius);
+  border-top-left-radius: var(--dropdown-radius);
+  color: white;
+  border: 1px solid gray;
+}
+#button2 {
+  border-bottom-right-radius: var(--dropdown-radius);
+  border-top-right-radius: var(--dropdown-radius);
+  border-left-style: solid;
+  border-left-color: rgb(83, 83, 83);
+  border-width: 1px;
+  color: gray;
+  border: 1px solid gray;
+}
+input {
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid black;
+  width: 100%;
+}
+.display {
+  margin-top: 200px;
+  border-bottom: 1px solid gray;
+  width: 100%;
+}
+.footer-icon {
+  display: flex;
+}
+
+.footer-icon span {
+  margin-left: 4px;
+}
+.footer-button {
+  display: flex;
+  align-items: center;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.btn1 {
+  background-color: blue;
+  color: white;
+  border-radius: 15px;
+  border: 1px solid black;
+  padding: 5px;
+}
+.footer-button span {
+  margin-left: 5px;
+}
